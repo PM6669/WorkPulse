@@ -1,2 +1,16 @@
+Steps 📋
+
+1. Open PowerShell and run the following command to allow scripts to run:
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned ⌨️
+
+⚠️ Note: Don’t worry if you see some red lines or words—they are normal and will not break your PC.  
+
+2. Open the folder "tp" 📂
+3. Inside that folder, open the file "tp_open.bat" 🖱️
+4. In the window that opens, type: ./tp ⌨️
+   ⚠️ Important: Do not forget to add "./" before tp
+5. A new Notepad will open automatically 📝
+6. Place the typing cursor in the new Notepad window and start typing ✍️
+
 # WorkPulse
-WorkPulse functions like a heartbeat monitor for your work session. It checks for user presence after a set idle period and runs a brief verification window to confirm activity. If no input is detected, it cleanly transitions the system to an idle state.
+WorkPulse functions like a heartbeat monitor for your work session. It checks for user presence after a set idle period and runs a brief verification window to confirm activity. If no input is detected, the system cleanly transitions to an idle state.
